@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'transit/rails/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "transit-rails"
+  spec.name          = "hf-transit-rails"
   spec.version       = Transit::Rails::VERSION
   spec.authors       = ["Joshua Davey"]
   spec.email         = ["josh@joshuadavey.com"]
@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "transit-ruby", "~> 0.8", ">= 0.8.567"
+  spec.add_dependency 'hf-transit-ruby', '~> 0.8.dev.1'
 
   spec.add_development_dependency "bundler", "~> 1.6"
 end
