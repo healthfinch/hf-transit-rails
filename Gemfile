@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
-source 'https://4EigK-SfXrHqnwV3CzVA@repo.fury.io/healthfinch/'
+source 'https://HVgcJNeLzaCtuEDNyyxJ@repo.fury.io/healthfinch/'
 
 gem 'rake'
 gem 'rspec'
-gem 'rails', '~> 5.0'
+gem 'rails', '~> 4.2.10'
 
 gemspec
